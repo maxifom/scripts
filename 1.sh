@@ -4,3 +4,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/cust
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions;
 sed -i 's/(git)/(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
 source ~/.zshrc;
+chsh -s $(which zsh);
+curl -fsSL https://get.docker.com -o get-docker.sh;
+sh get-docker.sh;
+rm get-docker.sh;
+
