@@ -16,11 +16,3 @@ chmod +x ./docker.sh;
 ./docker.sh;
 rm docker.sh zsh.sh;
 echo "DONE";
-
-
-
-
-
-
-
-
