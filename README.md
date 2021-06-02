@@ -1,1 +1,1 @@
-# install_zsh
+# scripts
