@@ -14,7 +14,7 @@ source ~/.zshrc;
 wget -O docker.sh https://get.docker.com;
 chmod +x ./docker.sh;
 ./docker.sh;
-rm docker.sh install.sh;
+rm docker.sh zsh.sh;
 echo "DONE";
 
 
