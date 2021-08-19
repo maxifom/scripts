@@ -1,5 +1,5 @@
 # Качаем RKE
-wget https://github.com/rancher/rke/releases/download/v1.2.8/rke_linux-amd64
+wget https://github.com/rancher/rke/releases/download/v1.2.11/rke_linux-amd64
 mv rke_linux-amd64 rke
 chmod +x rke
 ./rke --version
@@ -16,6 +16,8 @@ tar -zxvf helm.tar.gz
 mv linux-amd64/helm /usr/local/bin/helm
 
 helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
+
+rke up
 
 # Для того чтобы kubectl работал с созданным кластером
 mkdir .kube                
